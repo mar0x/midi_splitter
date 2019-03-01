@@ -1,0 +1,47 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=MIDISplitter-hc14-pcb-DIN-50x96_PCB1_859478570
+*Date=09:29:35
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;13.97;-51.8167;0;Bottom;Copper Fill46
+2;;;19.7104;-54.6488;0;Bottom;Copper Fill42
+3;;;17.8308;-64.8342;0;Bottom;Copper Fill40
+4;;;5.92121;-5.13913;0;Bottom;Hole1
+5;;;7.58896;-11.9071;0;Bottom;IMG3
+6;;THTw;41.9075;-51.5274;-90;Bottom;MIDI OUT4
+7;;;36.0426;-71.8827;0;Bottom;Copper Fill48
+8;;THT;26.002;-53.5526;0;Bottom;J1
+9;;;5.9071;-90.5699;0;Bottom;Hole4
+10;;THTw;8.19149;-72.0877;90;Bottom;MIDI OUT1
+11;;;42.5937;-12.6422;0;Bottom;IMG2
+12;;THT;23.462;-43.3926;0;Bottom;J2
+13;220;THT;29.812;-75.1426;-90;Bottom;R51
+14;;;13.97;-31.4966;0;Bottom;Copper Fill47
+15;220;THT;19.017;-33.8676;90;Bottom;R31
+16;220;THT;29.812;-59.2676;90;Bottom;R41
+17;;;24.9936;-48.0194;0;Bottom;Copper Fill44
+18;;;33.02;-54.4456;0;Bottom;Copper Fill43
+19;220;THT;19.652;-64.9826;-90;Bottom;R11
+20;;;25.0613;-5.85701;0;Bottom;TXT1
+21;220;THT;19.017;-45.9326;-90;Bottom;R21
+22;;;44.3658;-5.14845;0;Bottom;Hole2
+23;;;24.6848;-92.7815;0;Bottom;TXT2
+24;;THTw;8.19149;-51.7677;90;Bottom;MIDI OUT2
+25;;THTw;41.9075;-71.8474;-90;Bottom;MIDI OUT5
+26;;;43.1868;-31.5485;-90;Bottom;IMG1
+27;;;15.1384;-59.3224;0;Bottom;Copper Fill41
+28;;;12.6365;-70.8032;0;Bottom;Copper Fill45
+29;;;23.6523;-88.2624;90;Bottom;Power plug1
+30;;THTw;8.19149;-31.4476;90;Bottom;MIDI OUT3
+31;;;44.3658;-90.5699;0;Bottom;Hole3
+32;;THTw;25.2468;-8.08415;0;Bottom;MIDI IN
