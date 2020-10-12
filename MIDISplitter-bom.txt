@@ -2,6 +2,12 @@
 # Артикул: G1032BA
 # Ном. номер: 798847056
 # URL: https://www.chipdip.ru/product/g1032ba
+# 230 руб
+# -
+# URL: https://www.danomsk.ru/shop/12-gotovye-izdeliya/28-korpusa-boksy/163-korpusa-dlya-rea/96482-korpus-dlya-rea-g1032ba-101-54-41-7mm-plastikovyy-chernyy-alyumin-kryshka-gainta/
+# Код товара: Z96811
+# Order: #97481 от 26.08.2020, https://www.danomsk.ru/personal/order/detail/97481/
+# 11 * 121.87 + 300 = 1640.57 руб ( 11 * 149.15 )
 G1032BA
 
 # DS-210, Гнездо питания 2,1х5,5мм на панель
@@ -9,95 +15,114 @@ G1032BA
 # PartNumber: DS-210B(PBT)(NB)
 # Ном. номер: 463130296
 # URL: https://www.chipdip.ru/product/ds-210
+# 52 руб
+# -
+# URL: https://aliexpress.ru/item/32955603696.html
+# DC005 5.5x2.1мм
+# Order: 5005159492062510 00:59 Aug. 27 2020 Exp: Oct. 10 2020
+# 10 * 3.582 + 65.42 = 101.24 ( 10 * 10.124 )
 DS-210
 
 # DB102, Диодный мост 1A 100В [DB-1]
 # Артикул: DB102
 # Ном. номер: 7348
 # URL: https://www.chipdip.ru/product/db102
+# 11 руб
+# -
+# URL: https://www.aliexpress.ru/item/20pcs-lot-DB104S-DB104GS-DB107S-SOP4-DB102-DB104-DB107-DIP4-In-Stock/32981134851.html
+# DB102 DIP
+# Order: 5005159492542510 01:10 Aug. 27 2020 Exp: Oct. 13 2020
+# 20 * 4.634 + 46.73 = 139.40 ( 20 * 6.97 )
 DB102
 
 # L4940V5, Регулятор с очень низким падением напряжения 0.5В и блокировкой, 5В, 1.5А, [TO-220]
 # Артикул: L4940V5
 # Ном. номер: 32822
 # URL: https://www.chipdip.ru/product/l4940v5
+# 76 руб
+# -
+# URL: https://www.aliexpress.ru/item/10pcs-lot-L4940V5-5V-15A-TO-220-In-Stock/32909136040.html
+# Order: 5005170509072510 01:33 Aug. 27 2020 Exp: Oct. 10 2020
+# 10 * 21.806 + 53.74 = 271.80 ( 10 * 27.18 )
 L4940V5
 
-# Конд.тант. 22мкФ х 35В типE 20%
-# PartNumber: 22UFX35V,E,20%(CA42)
-# Ном. номер: 21768
-# URL: https://www.chipdip.ru/product0/21768
-22UFX35V
+# Конд.эл. 22мкф 16В 4x7мм
+# URL: https://www.danomsk.ru/shop/5-kondensatory/88-kondensatory-elektroliticheskie/71209-ss-16-22-ss016m0022b1f-0407-4-7-16v-22uf-105-s-yageo/
+# 1.60 руб
+SS-16-22
 
-# К10-17Б имп. 0.1 мкФ X7R,10%, 0805, Конденсатор керамический выводной
-# PartNumber: CERCAP0.1/50V0805KX7R
-# Ном. номер: 77059545
-# URL: https://www.chipdip.ru/product0/77059545
-CERCAP0.1/50V0805KX7R
+# Кер.ЧИП конд. 0.1 мкФ X7R 50В 10% 0805, GRM21BR71H104K
+# Ном. номер: 860640216
+# PartNumber: GRM21BR71H104K
+# 7 руб
+GRM21BR71H104K 3
 
-# 1N4001, Диод выпрямительный 1А 50В [DO-41]
-# Артикул: 1N4001
-# Ном. номер: 9000461658
-# URL: https://www.chipdip.ru/product/1n4001-2
-1N4001
+# 1N914, Диод 75 мА 75В 5нс [DO-35]
+# Ном. номер: 369837539
+# Артикул: 1N914
+# URL: https://www.chipdip.ru/product/1n914
+# 3 руб
+1N914
 
-# MF-25 (С2-23) 0.25 Вт, 220 Ом, 1%, Резистор металлопленочный
-# PartNumber: MF-1/4W-220RF
-# Ном. номер: 27226
-# URL: https://www.chipdip.ru/product0/27226
-MF-1/4W-220RF  9
+# 0.125Вт 0805 220 Ом, 1%, Чип резистор (SMD)
+# Ном. номер: 9000079470
+# Артикул: 0.125Вт 0805 220 Ом, 1%
+# PartNumber: RC0805FR-07220RL
+# URL: https://www.chipdip.ru/product0/9000079470
+# 2 руб
+RC0805FR-07220RL 9
 
-# MF-25 (С2-23) 0.25 Вт, 470 Ом, 1%, Резистор металлопленочный
-# PartNumber: MF-1/4W-470RF
-# Ном. номер: 42881
-# URL: https://www.chipdip.ru/product0/42881
-MF-1/4W-470RF
+# 0.125Вт 0805 470 Ом, 1%, Чип резистор (SMD)
+# Ном. номер: 9000079478
+# Артикул: 0.125Вт 0805 470 Ом, 1%
+# PartNumber: RC0805FR-07470RL
+# URL: https://www.chipdip.ru/product0/9000079478
+# 2 руб
+RC0805FR-07470RL
 
-# MF-25 (С2-23) 0.25 Вт, 10 кОм, 1%, Резистор металлопленочный
-# PartNumber: MF-1/4W-10KF
-# Ном. номер: 41486
-# URL: https://www.chipdip.ru/product0/41486
-MF-1/4W-10KF
+# 0.125Вт 0805 10 кОм, 1%, Чип резистор (SMD)
+# Ном. номер: 9000079514
+# Артикул: 0.125Вт 0805 10 кОм, 1%
+# PartNumber: RC0805FR-0710KL
+# URL: https://www.chipdip.ru/product0/9000079514
+# 2 руб
+RC0805FR-0710KL
+
+# 0.125Вт 0805 1 кОм, 1%, Чип резистор (SMD)
+# Ном. номер: 9000079486
+# Артикул: 0.125Вт 0805 1 кОм, 1%
+# PartNumber: RC0805FR-071KL
+# URL: https://www.chipdip.ru/product0/9000079486
+# 2 руб
+RC0805FR-071KL 2
 
 # 6N138M, Оптопара с низким входным током, высоким усилением, с транзисторным выходом [DIP-8]
 # Артикул: 6N138M
 # Ном. номер: 665628289
 # URL: https://www.chipdip.ru/product/6n138-fairchild
+# 43 руб
+# -
+# URL: https://www.aliexpress.com/item/10pcs-lot-6N135-6N136-6N137-6N138-6N139-DIP-8-SMD-8/32874392571.html
+# Order: 5005159492502510 01:10 Aug. 27 2020 Exp. Oct. 10 2020
+# 10 * 88.78 + 53.74 = 142.52 ( 10 * 14.252 )
 6N138M
-
-# 2-1571552-2 (TRS-8) (1437539-6), Панель DIP 8 цанговая
-# PartNumber: 2-1571552-2
-# Ном. номер: 770557628
-# URL: https://www.chipdip.ru/product/tyco-2-1571552-2
-2-1571552-2
 
 # SN74HC14N, Инвертирующий Триггер Шмитта (=КР1564ТЛ2), [PDIP-14]
 # Артикул: SN74HC14N
 # Ном. номер: 183658379
 # URL: https://www.chipdip.ru/product/sn74hc14n
+# 25 руб
+# -
+# URL: https://www.aliexpress.com/item/10pcs-lot-SN74LS14N-74LS14-DIP-14-In-Stock/32999897973.html
+# Order: 5005159492642510 01:10 Aug. 27 2020 Exp. Oct. 09 2020
+# 10 * 9.501 + 53.74 = 148.75 ( 10 * 14.875 )
 SN74HC14N
-
-# TRS-14 (SCSM-14) (DS1001-01-14N), DIP панель 14-контактная цанговая узкая
-# PartNumber: DS1001-01-14BT1NSF6X-JKB
-# Ном. номер: 14398
-# URL: https://www.chipdip.ru/product/trs-14
-DS1001-01-14BT1NSF6X-JKB
-
-# PBS-6 (DS-1023 -1x 6), Гнездо на плату 2.54мм 1х6 прямое
-# Артикул: PBS-6 (DS-1023 -1x 6)
-# PartNumber: DS1023-1*6S21
-# Ном. номер: 63236
-# URL: https://www.chipdip.ru/product/pbs-6
-PBS-6 (DS-1023-1x6)  2
-
-# PLH-40 (DS-1029-01 - 1x40), Межплатный соединитель 2.54мм 1х40 тип18
-# Артикул: PLH-40 (DS-1029-01 - 1x40)
-# PartNumber: DS1029-01-1*40P8BVA18-B
-# Ном. номер: 34079
-# URL: https://www.chipdip.ru/product/plh-40
-DS1029-01-1*40P8BVA18-B
 
 # DIN connector 5 Pin DIN Female Jack Right Angle Panel Mount 90 Degree 5 Pin Female DIN Adapter Solder Type Jack Chassis
 # Model Number:RTW909080M
 # URL: https://ru.aliexpress.com/item/20pcs-DIN-connector-5-Pin-DIN-Female-Jack-Right-Angle-Panel-Mount-90-Degree-5-Pin/32820176757.html
+#
+# URL: https://www.aliexpress.ru/item/10-Pcs-Set-PCB-Panel-Mount-Female-Connector-DIN5-DIN-5-Pin-Jack-DS-5-01/4001264257087.html
+# Order: 5005159492622510 01:10 Aug. 27 2020 Exp: Sep. 24 2020
+# 10 * 6 * 23.052 + 141.74 = 1524.88 ( 10 * 152.488 )
 RTW909080M  6
