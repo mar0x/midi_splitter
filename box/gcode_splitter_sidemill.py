@@ -85,26 +85,29 @@ def box_edge_cut(l):
     g.G(0, X=rapid_move_height, c='Retract')
     g.G(0, Y=0)
 
-def midi_hole(hy):
+def hole(hy, hz, hr):
     g.G(0, X=rapid_move_height, c='Retract')
 
-    r = midi_hole_r - mill_gap
-    g.G(0, Y=hy, Z=midi_hole_z - r)
+    r = hr - mill_gap
+    g.G(0, Y=hy, Z=hz - r)
 
     x = mill_start
     while (x >= mill_depth):
         g.G(1, X=x, F=plunge_feed_rate, c='Plunge')
         g.G(1, F=mill_feed_rate, c="Set milling feed rate")
 
-        g.G(1, Y=hy, Z=midi_hole_z - r)
+        g.G(1, Y=hy, Z=hz - r)
         N = 360
         for n in range(N):
             a = (2.0 * math.pi) / N * n
-            g.G(1, Y=hy - r * math.sin(a), Z=midi_hole_z - r * math.cos(a))
+            g.G(1, Y=hy - r * math.sin(a), Z=hz - r * math.cos(a))
 
-        g.G(1, Y=hy, Z=midi_hole_z - r)
+        g.G(1, Y=hy, Z=hz - r)
 
         x += mill_depth_step
+
+def midi_hole(hy):
+    hole(hy, midi_hole_z, midi_hole_r)
 
 def long_side():
     # cut the edge
@@ -138,6 +141,38 @@ def usb_side():
     g.G(0, Y=usb_led_hole_y, Z=usb_led_hole_z)
     g.G(1, X=mill_depth, F=plunge_feed_rate, c='Plunge')
 
+def power_usb_side():
+    # cut the edge
+    box_edge_cut(box_width)
+
+    usb_hole_y = -10
+
+    g.G(0, Y=usb_hole_y -usb_hole_width / 2 + mill_gap, Z=usb_hole_z - mill_gap)
+
+    x = mill_start
+    while (x >= mill_depth):
+        g.G(1, X=x, F=plunge_feed_rate, c='Plunge')
+        g.G(1, F=mill_feed_rate, c="Set milling feed rate")
+
+        g.G(1, Y=usb_hole_y + usb_hole_width / 2 - mill_gap)
+        g.G(1, Z=usb_hole_z - usb_hole_height + mill_gap)
+        g.G(1, Y=usb_hole_y -usb_hole_width / 2 + mill_gap)
+        g.G(1, Z=usb_hole_z - mill_gap)
+
+        x += mill_depth_step
+
+    g.G(0, X=rapid_move_height, c='Retract')
+
+    power_hole_y = 9
+    power_hole_z = pcb_surface_z -6.5
+    power_hole_r = 7.5 / 2
+
+    hole(power_hole_y, power_hole_z, power_hole_r)
+
+    g.G(0, X=rapid_move_height, c='Retract')
+    g.G(0, Y=0, Z=usb_led_hole_z)
+    g.G(1, X=mill_depth, F=plunge_feed_rate, c='Plunge')
+
 def midi_in_side():
     # cut the edge
     box_edge_cut(box_width)
@@ -158,6 +193,12 @@ with open("splitter_long_side.ngc", "w") as f:
 with open("splitter_usb_side.ngc", "w") as f:
     g = new_gcode(f)
     usb_side()
+    g.G(0, X=rapid_move_height, c='Retract')
+    g.end()
+
+with open("splitter_power_usb_side.ngc", "w") as f:
+    g = new_gcode(f)
+    power_usb_side()
     g.G(0, X=rapid_move_height, c='Retract')
     g.end()
 

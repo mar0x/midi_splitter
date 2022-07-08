@@ -20,8 +20,10 @@ rapid_plunge_height = 0.5    # mm
 stand_d = 6                  # mm
 stand_r = stand_d / 2
 
+box_edge_z = -4              # mm
+
 mill_start = 0
-mill_depth = -9.6
+mill_depth = box_edge_z -5.6
 
 g = gcode(
       spindle_speed = spindle_speed,
