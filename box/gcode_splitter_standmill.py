@@ -20,7 +20,7 @@ rapid_plunge_height = 0.5    # mm
 stand_d = 6                  # mm
 stand_r = stand_d / 2
 
-box_edge_z = -4              # mm
+box_edge_z = -5              # mm
 
 mill_start = 0
 mill_depth = box_edge_z -5.6

@@ -14,7 +14,7 @@ M3 ( Spindle on clockwise )
 G4 P1 ( Wait for spindle to get up to speed )
 G0 Z3 ( Retract )
 G0 X3 ( Retract )
-G0 Y29.5 Z-3
+G0 Y29.5 Z-4
 G0 X3 ( Retract )
 G0 Y29.5
 G0 X-1 ( Plunge )
@@ -32,27 +32,27 @@ G1 F200 ( Set milling feed rate )
 G1 Y-29.5
 G0 X3 ( Retract )
 G0 Y0
-G0 Y-4.5 Z-13
+G0 Y-4.5 Z-14
 G1 X-1 F80 ( Plunge )
 G1 F200 ( Set milling feed rate )
 G1 Y4.5
-G1 Z-21
+G1 Z-22
 G1 Y-4.5
-G1 Z-13
+G1 Z-14
 G1 X-2 F80 ( Plunge )
 G1 F200 ( Set milling feed rate )
 G1 Y4.5
-G1 Z-21
+G1 Z-22
 G1 Y-4.5
-G1 Z-13
+G1 Z-14
 G1 X-3 F80 ( Plunge )
 G1 F200 ( Set milling feed rate )
 G1 Y4.5
-G1 Z-21
+G1 Z-22
 G1 Y-4.5
-G1 Z-13
+G1 Z-14
 G0 X3 ( Retract )
-G0 Y-10 Z-17
+G0 Y-10 Z-18
 G1 X-3 F80 ( Plunge )
 G0 X3 ( Retract )
 G0 Z3 ( Retract )
@@ -60,4 +60,4 @@ M5 ( Spindle off )
 G4 P1 ( Wait for spindle to stop )
 M9 ( Coolant off )
 M2 ( Program end )
-( end, rd=263.371 mm, rt=0.283667 min, md=291 mm, mt=1.545 min )
+( end, rd=264.586 mm, rt=0.285333 min, md=291 mm, mt=1.545 min )

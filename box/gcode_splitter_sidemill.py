@@ -18,7 +18,7 @@ rapid_move_height = 3.0      # mm
 retract_height = 3.0         # mm
 rapid_plunge_height = 0.5    # mm
 
-box_edge_z = -4              # mm
+box_edge_z = -5              # mm
 
 mill_depth = -3.0            # mm
 mill_start = mill_depth_step # mm
@@ -125,6 +125,7 @@ def usb_side():
 
     g.G(0, Y=-usb_hole_width / 2 + mill_gap, Z=usb_hole_z - mill_gap)
 
+    # x + 23.2
     x = mill_start
     while (x >= mill_depth):
         g.G(1, X=x, F=plunge_feed_rate, c='Plunge')
@@ -149,6 +150,7 @@ def power_usb_side():
 
     g.G(0, Y=usb_hole_y -usb_hole_width / 2 + mill_gap, Z=usb_hole_z - mill_gap)
 
+    # x + 23.2
     x = mill_start
     while (x >= mill_depth):
         g.G(1, X=x, F=plunge_feed_rate, c='Plunge')
