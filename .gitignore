@@ -1,7 +1,8 @@
-.DS_Store
+**/.DS_Store
 *.bak
 *.kicad_pcb-bak
 *.sch-bak
 *-cache.lib
 *.net
-fp-info-cache
+**/fp-info-cache
+*-backups
