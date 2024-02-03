@@ -688,12 +688,7 @@
     (pad "2" thru_hole oval (at 0 -5.8 90) (size 4 1.8) (drill oval 3 0.8) (layers "*.Cu" "*.Mask")
       (net 6 "Net-(D1-Pad4)") (pintype "passive") (tstamp 50d3e34a-8787-452b-bad9-85843051894d))
     (pad "3" thru_hole oval (at 4.8 -3) (size 4 1.8) (drill oval 3 0.8) (layers "*.Cu" "*.Mask") (tstamp 3082afa5-847f-4e9a-8563-cd98643cfc9b))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Wuerth_6941xx301002.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "/home/mromanov/projects/midi_splitter/kicad/lib/DC Power Jack 5.5mm x 2.1mm.step"
+    (model "${KIPRJMOD}/../lib/DC Power Jack 5.5mm x 2.1mm.step"
       (offset (xyz 0 -10.5 6))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
