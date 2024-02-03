@@ -1981,6 +1981,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
     )
+    (model "${KIPRJMOD}/../power_adapter/power_adapter.wrl"
+      (offset (xyz 2.3 -7.6 11.1))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (layer "F.Cu")
