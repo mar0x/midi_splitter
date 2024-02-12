@@ -175,6 +175,16 @@ def power_usb_side():
     g.G(0, Y=0, Z=usb_led_hole_z)
     g.G(1, X=mill_depth, F=plunge_feed_rate, c='Plunge')
 
+def power_usb_side_v2():
+    power_hole_z = pcb_surface_z - 1.5 - 6.3/2 # mm
+    #power_hole_r = 7 / 2         # mm
+    power_hole_r = 2 / 2         # mm
+    power_hole_y = 21 / 2        # mm
+
+    usb_side()
+
+    hole(power_hole_y, power_hole_z, power_hole_r);
+
 def midi_in_side():
     # cut the edge
     box_edge_cut(box_width)
@@ -201,6 +211,12 @@ with open("splitter_usb_side.ngc", "w") as f:
 with open("splitter_power_usb_side.ngc", "w") as f:
     g = new_gcode(f)
     power_usb_side()
+    g.G(0, X=rapid_move_height, c='Retract')
+    g.end()
+
+with open("splitter_power_usb_side_v2.ngc", "w") as f:
+    g = new_gcode(f)
+    power_usb_side_v2()
     g.G(0, X=rapid_move_height, c='Retract')
     g.end()
 

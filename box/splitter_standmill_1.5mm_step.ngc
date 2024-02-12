@@ -3,7 +3,7 @@ G94 ( Millimeters per minute feed rate )
 G21 ( Units == Millimeters )
 G90 ( Absolute coordinates )
 G0 S10000 ( RPM spindle speed )
-G1 F100 ( Feedrate )
+G1 F300 ( Feedrate )
 G0 Z3 ( Retract to tool change height )
 T0
 M5 ( Spindle stop )
@@ -19,56 +19,56 @@ G0 X0 Y-2.0875
 M3 ( Spindle on clockwise )
 G4 P1 ( Wait for spindle to get up to speed )
 G0 Z0.5 ( Rapid plunge )
-G1 Z0 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z0 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y0 I0 J2.0875
 G2 X0 Y2.0875 I2.0875 J0
 G2 X2.0875 Y0 I0 J-2.0875
 G2 X0 Y-2.0875 Z0 I-2.0875 J0
-G1 Z-1.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-1.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y0 I0 J2.0875
 G2 X0 Y2.0875 I2.0875 J0
 G2 X2.0875 Y0 I0 J-2.0875
 G2 X0 Y-2.0875 Z-1.5 I-2.0875 J0
-G1 Z-3 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-3 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y0 I0 J2.0875
 G2 X0 Y2.0875 I2.0875 J0
 G2 X2.0875 Y0 I0 J-2.0875
 G2 X0 Y-2.0875 Z-3 I-2.0875 J0
-G1 Z-4.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-4.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y0 I0 J2.0875
 G2 X0 Y2.0875 I2.0875 J0
 G2 X2.0875 Y0 I0 J-2.0875
 G2 X0 Y-2.0875 Z-4.5 I-2.0875 J0
-G1 Z-6 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-6 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y0 I0 J2.0875
 G2 X0 Y2.0875 I2.0875 J0
 G2 X2.0875 Y0 I0 J-2.0875
 G2 X0 Y-2.0875 Z-6 I-2.0875 J0
-G1 Z-7.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-7.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y0 I0 J2.0875
 G2 X0 Y2.0875 I2.0875 J0
 G2 X2.0875 Y0 I0 J-2.0875
 G2 X0 Y-2.0875 Z-7.5 I-2.0875 J0
-G1 Z-9 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-9 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y0 I0 J2.0875
 G2 X0 Y2.0875 I2.0875 J0
 G2 X2.0875 Y0 I0 J-2.0875
 G2 X0 Y-2.0875 Z-9 I-2.0875 J0
-G1 Z-10.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-10.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y0 I0 J2.0875
 G2 X0 Y2.0875 I2.0875 J0
 G2 X2.0875 Y0 I0 J-2.0875
 G2 X0 Y-2.0875 Z-10.5 I-2.0875 J0
-G1 Z-10.6 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-10.6 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y0 I0 J2.0875
 G2 X0 Y2.0875 I2.0875 J0
 G2 X2.0875 Y0 I0 J-2.0875
@@ -86,56 +86,56 @@ G0 X0 Y-40.5875
 M3 ( Spindle on clockwise )
 G4 P1 ( Wait for spindle to get up to speed )
 G0 Z0.5 ( Rapid plunge )
-G1 Z0 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z0 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y-38.5 I0 J2.0875
 G2 X0 Y-36.4125 I2.0875 J0
 G2 X2.0875 Y-38.5 I0 J-2.0875
 G2 X0 Y-40.5875 Z0 I-2.0875 J0
-G1 Z-1.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-1.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y-38.5 I0 J2.0875
 G2 X0 Y-36.4125 I2.0875 J0
 G2 X2.0875 Y-38.5 I0 J-2.0875
 G2 X0 Y-40.5875 Z-1.5 I-2.0875 J0
-G1 Z-3 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-3 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y-38.5 I0 J2.0875
 G2 X0 Y-36.4125 I2.0875 J0
 G2 X2.0875 Y-38.5 I0 J-2.0875
 G2 X0 Y-40.5875 Z-3 I-2.0875 J0
-G1 Z-4.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-4.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y-38.5 I0 J2.0875
 G2 X0 Y-36.4125 I2.0875 J0
 G2 X2.0875 Y-38.5 I0 J-2.0875
 G2 X0 Y-40.5875 Z-4.5 I-2.0875 J0
-G1 Z-6 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-6 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y-38.5 I0 J2.0875
 G2 X0 Y-36.4125 I2.0875 J0
 G2 X2.0875 Y-38.5 I0 J-2.0875
 G2 X0 Y-40.5875 Z-6 I-2.0875 J0
-G1 Z-7.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-7.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y-38.5 I0 J2.0875
 G2 X0 Y-36.4125 I2.0875 J0
 G2 X2.0875 Y-38.5 I0 J-2.0875
 G2 X0 Y-40.5875 Z-7.5 I-2.0875 J0
-G1 Z-9 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-9 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y-38.5 I0 J2.0875
 G2 X0 Y-36.4125 I2.0875 J0
 G2 X2.0875 Y-38.5 I0 J-2.0875
 G2 X0 Y-40.5875 Z-9 I-2.0875 J0
-G1 Z-10.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-10.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y-38.5 I0 J2.0875
 G2 X0 Y-36.4125 I2.0875 J0
 G2 X2.0875 Y-38.5 I0 J-2.0875
 G2 X0 Y-40.5875 Z-10.5 I-2.0875 J0
-G1 Z-10.6 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-10.6 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-2.0875 Y-38.5 I0 J2.0875
 G2 X0 Y-36.4125 I2.0875 J0
 G2 X2.0875 Y-38.5 I0 J-2.0875
@@ -153,56 +153,56 @@ G0 X-85.5 Y-40.5875
 M3 ( Spindle on clockwise )
 G4 P1 ( Wait for spindle to get up to speed )
 G0 Z0.5 ( Rapid plunge )
-G1 Z0 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z0 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y-38.5 I0 J2.0875
 G2 X-85.5 Y-36.4125 I2.0875 J0
 G2 X-83.4125 Y-38.5 I0 J-2.0875
 G2 X-85.5 Y-40.5875 Z0 I-2.0875 J0
-G1 Z-1.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-1.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y-38.5 I0 J2.0875
 G2 X-85.5 Y-36.4125 I2.0875 J0
 G2 X-83.4125 Y-38.5 I0 J-2.0875
 G2 X-85.5 Y-40.5875 Z-1.5 I-2.0875 J0
-G1 Z-3 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-3 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y-38.5 I0 J2.0875
 G2 X-85.5 Y-36.4125 I2.0875 J0
 G2 X-83.4125 Y-38.5 I0 J-2.0875
 G2 X-85.5 Y-40.5875 Z-3 I-2.0875 J0
-G1 Z-4.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-4.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y-38.5 I0 J2.0875
 G2 X-85.5 Y-36.4125 I2.0875 J0
 G2 X-83.4125 Y-38.5 I0 J-2.0875
 G2 X-85.5 Y-40.5875 Z-4.5 I-2.0875 J0
-G1 Z-6 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-6 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y-38.5 I0 J2.0875
 G2 X-85.5 Y-36.4125 I2.0875 J0
 G2 X-83.4125 Y-38.5 I0 J-2.0875
 G2 X-85.5 Y-40.5875 Z-6 I-2.0875 J0
-G1 Z-7.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-7.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y-38.5 I0 J2.0875
 G2 X-85.5 Y-36.4125 I2.0875 J0
 G2 X-83.4125 Y-38.5 I0 J-2.0875
 G2 X-85.5 Y-40.5875 Z-7.5 I-2.0875 J0
-G1 Z-9 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-9 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y-38.5 I0 J2.0875
 G2 X-85.5 Y-36.4125 I2.0875 J0
 G2 X-83.4125 Y-38.5 I0 J-2.0875
 G2 X-85.5 Y-40.5875 Z-9 I-2.0875 J0
-G1 Z-10.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-10.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y-38.5 I0 J2.0875
 G2 X-85.5 Y-36.4125 I2.0875 J0
 G2 X-83.4125 Y-38.5 I0 J-2.0875
 G2 X-85.5 Y-40.5875 Z-10.5 I-2.0875 J0
-G1 Z-10.6 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-10.6 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y-38.5 I0 J2.0875
 G2 X-85.5 Y-36.4125 I2.0875 J0
 G2 X-83.4125 Y-38.5 I0 J-2.0875
@@ -220,56 +220,56 @@ G0 X-85.5 Y-2.0875
 M3 ( Spindle on clockwise )
 G4 P1 ( Wait for spindle to get up to speed )
 G0 Z0.5 ( Rapid plunge )
-G1 Z0 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z0 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y0 I0 J2.0875
 G2 X-85.5 Y2.0875 I2.0875 J0
 G2 X-83.4125 Y0 I0 J-2.0875
 G2 X-85.5 Y-2.0875 Z0 I-2.0875 J0
-G1 Z-1.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-1.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y0 I0 J2.0875
 G2 X-85.5 Y2.0875 I2.0875 J0
 G2 X-83.4125 Y0 I0 J-2.0875
 G2 X-85.5 Y-2.0875 Z-1.5 I-2.0875 J0
-G1 Z-3 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-3 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y0 I0 J2.0875
 G2 X-85.5 Y2.0875 I2.0875 J0
 G2 X-83.4125 Y0 I0 J-2.0875
 G2 X-85.5 Y-2.0875 Z-3 I-2.0875 J0
-G1 Z-4.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-4.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y0 I0 J2.0875
 G2 X-85.5 Y2.0875 I2.0875 J0
 G2 X-83.4125 Y0 I0 J-2.0875
 G2 X-85.5 Y-2.0875 Z-4.5 I-2.0875 J0
-G1 Z-6 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-6 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y0 I0 J2.0875
 G2 X-85.5 Y2.0875 I2.0875 J0
 G2 X-83.4125 Y0 I0 J-2.0875
 G2 X-85.5 Y-2.0875 Z-6 I-2.0875 J0
-G1 Z-7.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-7.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y0 I0 J2.0875
 G2 X-85.5 Y2.0875 I2.0875 J0
 G2 X-83.4125 Y0 I0 J-2.0875
 G2 X-85.5 Y-2.0875 Z-7.5 I-2.0875 J0
-G1 Z-9 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-9 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y0 I0 J2.0875
 G2 X-85.5 Y2.0875 I2.0875 J0
 G2 X-83.4125 Y0 I0 J-2.0875
 G2 X-85.5 Y-2.0875 Z-9 I-2.0875 J0
-G1 Z-10.5 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-10.5 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y0 I0 J2.0875
 G2 X-85.5 Y2.0875 I2.0875 J0
 G2 X-83.4125 Y0 I0 J-2.0875
 G2 X-85.5 Y-2.0875 Z-10.5 I-2.0875 J0
-G1 Z-10.6 F30 ( Plunge )
-G1 F100 ( Set milling feed rate )
+G1 Z-10.6 F60 ( Plunge )
+G1 F300 ( Set milling feed rate )
 G2 X-87.5875 Y0 I0 J2.0875
 G2 X-85.5 Y2.0875 I2.0875 J0
 G2 X-83.4125 Y0 I0 J-2.0875
@@ -289,4 +289,4 @@ M5 ( Spindle off )
 G4 P1 ( Wait for spindle to stop )
 M9 ( Coolant off )
 M2 ( Program end )
-( end, rd=372.513 mm, rt=0.417421 min, md=553.181 mm, mt=6.56781 min )
+( end, rd=372.513 mm, rt=0.417421 min, md=553.181 mm, mt=2.43594 min )

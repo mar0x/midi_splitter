@@ -8,8 +8,8 @@ mill_radius = mill_diameter / 2.0
 mill_gap = mill_radius       # mm
 vertical_step = -1.5         # mm, vertical step
 
-vertical_feed_rate = 30      # mm/min, vertical feed rate
-horizontal_feed_rate = 100   # mm/min, horizontal feed rate
+vertical_feed_rate = 60      # mm/min, vertical feed rate
+horizontal_feed_rate = 300   # mm/min, horizontal feed rate
 
 spindle_speed = 10000        # rpm, spindle speed
 tool_change_height = 3.0     # mm
